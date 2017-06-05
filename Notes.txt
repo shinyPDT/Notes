@@ -92,6 +92,8 @@ A) Start new session
 
 ***MISC***
 
+Loop picture in manage session should be consistent with that shown within session
+
 opening session. Go to the Experiments tab --> [hyperlink to experiments view]
 
 
