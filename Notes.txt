@@ -23,6 +23,10 @@ DEFINITION FILE
 
 * Missing value: say 'parameter <parametername>, Value.n ...' instead of  '<parametername>, Value.n ...'
 
+* 9 x 5; get one param wrong (e.g. two called param1). Click  'Update definition andn proceed to design'. Red error message for 'invalid parameters' --> OK. Correct, repeats. Nothing happens and message still there, until switching to next view (which takes a few secs). Same if writing incorrect value in initexper view (in this case minutes). Message should disappear as soon the user clicks and the validation passes.
+
+Same
+
 #########
 
 
@@ -55,6 +59,9 @@ A) Start new session
 
 
 ***MISC***
+
+opening session. Go to the Experiments tab --> [hyperlink to experiments view]
+
 
 
 stay idle on page for long --> disconnect?
