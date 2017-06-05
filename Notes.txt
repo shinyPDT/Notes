@@ -29,6 +29,38 @@ Same
 
 #########
 
+9 x 5; init experim window: enter char, button click, correct, button click --> Internal error: Timeout
+PDTstate.RData  created.Starting:   Mon Jun  5 13:52:19 2017  -- current wd =  /srv/shiny-server/PDTRuns/S_20170605205146.y2dr.gdev/RWarning in write.csv(file = definitionFile, curDef, row.names = FALSE, col.names = TRUE,  :
+  attempt to set 'col.names' ignored
+-su: line 1: 28064 Terminated              R --no-save --slave -f \/opt\/shiny-server\/R\/SockJSAdapter\.R
+
+AutoIncorporateExperiments.sh: START
+
+PDT.sh: START
+Automating incorporate
+
+Loading experiment environment...
+Loading space environment...
+Importing user parameter values from ParamsInitUser.RData 
+Setting numRepeat = 0 
+Setting popSize = 10 
+Default value assigned to extraExperimentFileString 
+Default value assigned to startRowExtraExp 
+Default value assigned to sheetIndexExtraExp 
+Default value assigned to numericColNames 
+Default value assigned to patternsToRemove 
+Default value assigned to removeIncorporated 
+Incorporating extra experiments...
+Incorporating extra experiments from ExtraExperiments0.csv ...
+Checking if incorporated extra experiments belong to the list of untried experiments...
+Extra experiments incorporated.
+Updating working variables in experiment environment...
+Saving up-to-date experiment and space environments...
+Success. Life is beautiful.
+PDT.sh: END
+AutoIncorporateExperiments.sh: END
+
+
 
 LOG in twice with same acccount (e.g., different browsers)
 
