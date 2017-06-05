@@ -25,8 +25,7 @@ DEFINITION FILE
 
 * 9 x 5; get one param wrong (e.g. two called param1). Click  'Update definition andn proceed to design'. Red error message for 'invalid parameters' --> OK. Correct, repeats. Nothing happens and message still there, until switching to next view (which takes a few secs). Same if writing incorrect value in initexper view (in this case minutes). Message should disappear as soon the user clicks and the validation passes; seems more of a problem in ESD view and initial experiments view;
 
-* 9 x 5: proceed to init exp view, click button to proceed to gen 1. Close window, go back to session (e.g. by URL)--> window should show 'Now designing generation 1' if you go to 'Experiments' as it does for generation 2+. Also, save initial experiments and execute design should be grayed out and disabled.
-
+* 9 x 5: proceed to init exp view, click button to proceed to gen 1. Close window, go back to session (e.g. by URL)--> window should show 'Now designing generation 1' if you go to 'Experiments' as it does for generation 2+ and not the init exp view.
 --> try closing between ESD and InitExp
 
 --> blue messages for long transitions should appear also if user closes window and comes back.
