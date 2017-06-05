@@ -1,0 +1,99 @@
+
+Test file upload errors (spaces, etc.)
+
+DEFINITION FILE
+
+*Upload file error: Please select a file (definition-file).
+
+*If parameter name starts with a number: error 'Invalid characters in parameter' (be more precise?). -->
+
+*Only 1 distinct parameter(s), (at least 2 are required)
+
+*If two parameters (only) and same name: 'Only 1 distinct parameter(s), (at least 2 are required)' said twice; should not be shown at all (already saying 'Duplicate parameter name..')
+
+*If headers up to Value.4, but one param with 5 values: 'Value.5. Unexpected value in header ''. '.
+
+* Same as above if missing header in the middle or if header is not 'Value.n' in column n+1 [in both cases, should say say 'Header in column A should be 'Name', column B should be 'Value.1' etc]
+
+* Same behavior for 'Name' 
+
+* Errors in your file: (invalid parameters) --> invalid parameter names?
+
+* Blank row: "Row 3: Parameter name cannot be blank; Invalid characters in parameter ''; Only 0 valid value(s) for parameter (at least 2 are required)."
+
+* Missing value: say 'parameter <parametername>, Value.n ...' instead of  '<parametername>, Value.n ...'
+
+#########
+
+
+LOG in twice with same acccount (e.g., different browsers)
+
+pdt_analytics.md: ctree not ok because we should put cart (unless we change meta params...)
+
+
+"If you open a duplicate session window while generation is "in progress" and go to the older window, the superceded message shows up, but the progress banner runs forever." [try all sorts of duplication of sessions (during execution, not - with url or not, definition/initialexp/genx page, use 9 x 5 space), from different/same browser]
+
+
+Deletion of session that is being used... (e.g. in open window; delete from another; then back to first window and execute design; or execute design (long and time consuming), then close, then dashboard and delete-- inform that is happening, then operate a cancel, else zombie processes)
+
+
+open session in win a go to gen 1, then same in win b; a can't click around anymore-- ok, but should say something (×Sorry! This session has been superceded by a more recent one. Please go to that window to continue.) --> maybe related to last crazy bug?
+
+
+PRICING FUNCTION: develop function that calculate price of executing a design of n experiments on v parameters. Polynomial (linear) in n, piece-wise linear(polynomial)-polynomial in v; polynomial powers and singularity value v_0 are parameters (v_0 from jump limits?). Academic rescaling. Stepwise approximations. Draw curve.-- CHARGE when uploading responses.
+
+
+
+A) Start new session
+	a)Same browser
+		1) Different tabs
+			Open 2 windows: 
+				*Complete 2nd winClicking on button of 1st window says "Sorry! 
+				This session has been superceded by a more recent one. Please go to that window to continue." OK
+				* 
+			
+
+
+***MISC***
+
+
+stay idle on page for long --> disconnect?
+
+HOT: Name : 12 --> Invalid characters in parameter '12' not invalid characters (param12 works). Also, maybe flag number only with red
+
+
+Try 9 x 5: generation 1 takes a lot longer than generation 2: WHY? Looks like loading the space takes 5 minutes prior to the generation of generation 1.
+
+Purchase credit - click opens a new page (so the pdt view stays open)
+Change payment processor so it doesn't require pop-up management
+
+If disconnected from server error always happens after 'reload' on same error, how to get out?
+
+Question marks: all same size (?), all to the right of the text they refer to (not new line)
+
+Go directly to Experiments tab at opening
+
+too much text (redirect to ? or readmore)
+
+
+Wrong pw: return in red or bold or contextual window
+
+Demo: first page --? what to do in bold
+
+Donwload table same style as download template (right now, blue buttons, gray buttons)
+
+Error: details should be larger
+
+Not clear how to enter extra experiments
+
+blue message wait until your session is started when clicking on existing session
+
+You may view the list of your hidden sessions by clicking 'Show hidden sessions' (button doesn't exist if there are no hidden sessions)
+ 
+PDT's power/validation:  DoE lines are most likely wrong (worse than the right ones). Not good that we have
+2 out of 100, 5 out of 100. Add material/process variables.
+
+
+
+hillclimb max from largest objects; introduce function; note consider that should multiply by number of iter
+
