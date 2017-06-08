@@ -23,16 +23,12 @@ DEFINITION FILE
 
 * Missing value: say 'parameter <parametername>, Value.n ...' instead of  '<parametername>, Value.n ...'
 
-* 9 x 5; get one param wrong (e.g. two called param1). Click  'Update definition andn proceed to design'. Red error message for 'invalid parameters' --> OK. Correct, repeats. Nothing happens and message still there, until switching to next view (which takes a few secs). Same if writing incorrect value in initexper view (in this case minutes). Message should disappear as soon the user clicks and the validation passes; seems more of a problem in ESD view and initial experiments view, which is clickable too...
-
-* 9 x 5: proceed to init exp view, click button to proceed to gen 1. Close window, go back to session (e.g. by URL)--> window should show 'Now designing generation 1' if you go to 'Experiments' as it does for generation 2+ and not the init exp view.
-
 
 --> blue messages for long transitions should appear also if user closes window and comes back.
 
 
 
-* 9 x 5 Cancel between inexp and gen 1: red error message ('AutoSampleNextGen.sh: ERROR sampling generation 1. support has been contacted'). 1) should stick around
+* 9 x 5 Cancel between inexp and gen 1: red error message ('AutoSampleNextGen.sh: ERROR sampling generation 1. support has been contacted'). 1) should stick around (does this still apply? it looks like the error doesn't show up in more recent versions)
 
 
 LOG in twice with same acccount (e.g., different browsers)
